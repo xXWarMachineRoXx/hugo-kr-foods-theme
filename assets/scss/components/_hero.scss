@@ -98,6 +98,7 @@
     }
     @include mobile {
       width: 100%;
+      display: none;
       margin-bottom: 20px;
     }
   }

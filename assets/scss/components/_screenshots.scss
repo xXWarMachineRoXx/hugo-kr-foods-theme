@@ -75,21 +75,21 @@
     left: 50%;
     top: calc(50% - 1px);
     transform: translate(-50%, -50%);
-    width: calc(20% - 18px);
+    width: calc(60% - 18px);
     z-index: 1;
     display: block;
     pointer-events: none;
     @include desktop-xl {
       top: 50%;
-      width: calc(20% - 22px);
+      width: calc(40% - 22px);
     }
 
     @include desktop {
-      width: calc(33% - 15px);
+      width: calc(43% - 15px);
     }
 
     @include tablet {
-      width: calc(33% - 20px);
+      width: calc(43% - 20px);
     }
 
     @include mobile {
@@ -97,8 +97,8 @@
     }
 
     img {
-      max-width: 100%;
       pointer-events: none;
+      
     }
   }
 
@@ -108,8 +108,13 @@
       outline: none;
 
       img {
-        width: 100%;
-        height: 100%;
+        // object-fit: cover;
+      object-fit: cover;
+
+        
+        height: 400px;
+        width: auto;
+        // padding-right: 10%;
 
         @include tablet {
         }

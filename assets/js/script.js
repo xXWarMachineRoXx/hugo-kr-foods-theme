@@ -56,7 +56,7 @@ $(document).ready(function () {
   // Screenshot Slider
   $(".screenshots-slider").slick({
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
     arrows: false,
@@ -85,8 +85,8 @@ $(document).ready(function () {
 
   // Testimonial slider
   $(".testimonial-slider").slick({
-    infinite: true,
-    slidesToShow: 3,
+    infinite: false,
+    slidesToShow: 2,
     slidesToScroll: 1,
     dots: false,
     arrows: false,
@@ -96,6 +96,23 @@ $(document).ready(function () {
     speed: 500,
     vertical: true,
     verticalSwiping: true,
+    
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
   $(".slick-slider").on("click", ".slick-slide", function (e) {
