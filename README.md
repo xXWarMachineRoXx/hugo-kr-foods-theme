@@ -1,6 +1,6 @@
 <h1>Apsho Hugo</h1>
-![image](https://github.com/xXWarMachineRoXx/hugo-kr-foods-theme/assets/47086987/ad1322ed-f2fc-460a-b4c4-16f92b6bfa0d)
 
+![alt text](https://github.com/xxwarmachineroxx/hugo-kr-foods-theme/blob/master/images/screenshot.png?raw=true)
 Apsho Hugo – App Landing Page is the perfect app showcase Hugo Theme. Apsho is a better way to present your modern business and app showcasing. It’s easy to customize and also well documented. And compatible with Desktop, laptop, mobile, and also compatible with major browsers. We follow the modern design system to craft the template.
 
 ## Table of Contents
