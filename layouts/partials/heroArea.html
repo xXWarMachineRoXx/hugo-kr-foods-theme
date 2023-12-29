@@ -3,7 +3,7 @@
   <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
      function viewpdf(pdf_url,pdf_name){ 
-        var adobeDCView = new AdobeDC.View({clientId: "7f0cdd702e35419587e960b2a0ad1af9"});
+        var adobeDCView = new AdobeDC.View({clientId: {{.local_host_key}}});
         adobeDCView.previewFile({
             content:{location: {url: pdf_url}},
             metaData:{fileName: pdf_name}
